@@ -1,15 +1,15 @@
 # hssb-ops-ui
 
-Cursor skill for Harrisons Sabah internal operations screens.
+Cursor skill for Harrisons Sabah internal websites.
 
-It sets navy ink, Harrisons blue, Barlow, 0.4rem controls, and one pattern per control. Branch ledgers also use the fore-edge and paper sheet. Public marketing sites are out of scope.
+Shared rules: navy ink, Harrisons blue, Barlow, 0.4rem controls, one working primary button, one filter row, and a flat page that does not animate layout. Branch lists use the ledger. Upload, history, and warehouse screens use the process layout.
 
 ## Install
 
-Copy this folder into the Cursor user skills directory so the skill is available in every project:
+Copy this folder into the Cursor user skills directory:
 
-`skills/hssb-ops-ui/SKILL.md`
+`skills/hssb-ops-ui/`
 
-Or copy `SKILL.md` into a project at `.cursor/skills/hssb-ops-ui/SKILL.md`.
+Or copy it into a project at `.cursor/skills/hssb-ops-ui/`.
 
-The agent should pick it up for Harrisons Sabah sales, warehouse, operations, and other internal staff tools.
+`SKILL.md` is the instruction. `examples.md` is read when a screen is being built.
